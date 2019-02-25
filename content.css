@@ -1,0 +1,196 @@
+@charset "UTF-8";
+* {
+  font-family: 微軟正黑體;
+}
+
+body {
+  height: 4000px;
+  border: 1px solid black;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  font-weight: bold;
+  letter-spacing: 1.5px;
+}
+
+nav.navbar {
+  transition: 0.5s;
+}
+
+nav.navbar.navbar-default.navbar-fixed-top.navbar-top {
+  background-color: transparent;
+}
+nav.navbar.navbar-default.navbar-fixed-top.navbar-top a {
+  color: white;
+  transition: 0.5s;
+}
+nav.navbar.navbar-default.navbar-fixed-top.navbar-top a:hover {
+  color: #99860f;
+}
+/*  cross */
+.cor {
+  top: 10%;
+  position: fixed;
+  width: 100px;
+  height: 100px;
+  padding-top: 50px;
+  z-index: 1;
+}
+
+.line {
+  border: 1px solid;
+  width: 100px;
+  height: 1px;
+  cursor: pointer;
+}
+
+.right {
+  transform: rotate(45deg);
+}
+
+.left {
+  transform: rotate(-45deg);
+}
+
+a{
+  color: black ;
+  text-decoration: none ;  
+}
+a:visited{
+  color: black ;
+  text-decoration: none ;
+}
+
+a:hover{
+  color: black ;
+  text-decoration: none ;
+}
+
+/*  end of cross */
+
+header.jumbotron {
+  text-align: center;
+  background-image: url(https://scontent.fkul16-1.fna.fbcdn.net/v/t1.15752-9/51931741_410074139727635_738405492086276096_n.jpg?_nc_cat=104&_nc_ht=scontent.fkul16-1.fna&oh=67d1fe64b4cb96d31463e8b8b7e3316f&oe=5CF649D6);
+  background-size: cover;
+  background-attachment: fixed;
+  margin-bottom: 0px;
+}
+header.jumbotron .container {
+  color: white;
+  padding: 230px 0px;
+}
+header.jumbotron h1 {
+  cursor: pointer;
+  opacity: 0.6;
+}
+header.jumbotron h1:hover {
+  opacity: 1;
+  color: black;
+  font-size: 120px;
+}
+header.jumbotron hr {
+  max-width: 50px;
+  border: solid 1.8px white;
+}
+header.jumbotron h4:hover {
+  font-size: 30px;
+  color: black;
+}
+
+section {
+  padding: 100px 0px;
+}
+
+section#section_first .container .row .col-sm-6 h3 {
+  margin-top: 60px;
+  text-align: center;
+}
+section#section_first .container .row .col-sm-6.img {
+  background-image: url(https://scontent-iad3-1.cdninstagram.com/vp/1e4bbfc129e58f04d9c8fa1e6a984939/5CDC37F9/t51.2885-15/e35/42556783_1943772135710864_7739462614368694964_n.jpg?_nc_ht=scontent-iad3-1.cdninstagram.com);
+  height: 500px;
+  background-size: cover;
+}
+
+section#section_ask .col-sm-5.img {
+  background-image: url(https://scontent.fkul16-1.fna.fbcdn.net/v/t1.15752-9/52461570_550340532135892_3318432079535931392_n.jpg?_nc_cat=108&_nc_ht=scontent.fkul16-1.fna&oh=64b69c7d67598329032aad7f752c9b20&oe=5CF0B7B8);
+  background-size: cover;
+  height: 450px;
+}
+section#section_ask h1 {
+  margin-top: 60px;
+}
+section#section_ask h1:hover {
+  color: rgba(119, 103, 3, 0.7);
+  font-size: 40px;
+}
+section#section_ask h3 {
+  color: rgba(0, 0, 0, 0.8);
+}
+section#section_ask h5 {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+section#section_about1 h1 {
+  text-align: center;
+}
+section#section_about1 h1:hover {
+  font-size: 50px;
+  color: rgba(119, 103, 3, 0.7);
+}
+section#section_about1 img {
+  padding: 20px 20px;
+  cursor: pointer;
+  width: 340px;
+}
+
+section#section_about2 h3 {
+  text-align: center;
+}
+section#section_about2 img {
+  padding: 20px 20px;
+  cursor: pointer;
+  width: 340px;
+}
+
+header.jumbotron2 {
+  background-image: url(https://scontent.fkul16-1.fna.fbcdn.net/v/t1.15752-9/52504042_2113274795431380_2050432831812796416_n.jpg?_nc_cat=108&_nc_ht=scontent.fkul16-1.fna&oh=d68a5e69580cacbc8f1564c411f028fd&oe=5CDBE805);
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  cursor: pointer;
+}
+header.jumbotron2 .container {
+  color: white;
+  text-align: center;
+  padding: 250px 0px;
+}
+header.jumbotron2 h1 {
+  cursor: pointer;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 50px;
+  opacity: 0.9;
+}
+header.jumbotron2 h1:hover {
+  opacity: 0.8;
+  color: black;
+  font-size: 100px;
+}
+header.jumbotron2 hr {
+  border: solid 1.5px;
+  max-width: 80px;
+}
+header.jumbotron2 h4 {
+  letter-spacing: 2px;
+  color: #776703;
+}
+header.jumbotron2 h4:hover {
+  font-size: 30px;
+  color: black;
+}
+header.jumbotron2 h5 {
+  color: #776703;
+}
+header.jumbotron2 h5:hover {
+  font-size: 30px;
+  color: black;
+}

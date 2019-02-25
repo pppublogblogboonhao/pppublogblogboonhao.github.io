@@ -1,0 +1,95 @@
+html, body {
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  * {
+    /* border: 1px solid ; */
+    letter-spacing: 1px;
+    line-height: 30px;
+    font-family: 'Shadows Into Light', cursive;
+  }
+  
+  .about {
+    position: fixed;
+    padding: 5px 5px;
+    right: 5%;
+    top: 100px ;
+    /* margin-top: 30px ; */
+    color: black;
+    font-weight: bold;
+    opacity: 0.55;
+    cursor: pointer;
+    display: block;
+    transition-duration: 0.2s;
+    z-index: 3;
+  }
+  .container {
+    opacity: 0.75;
+    padding: 200px 0px;
+    margin-left: 25px;
+  }
+  .container .bgt {
+    font-size: 75px;
+    color: black;
+  }
+  .container p {
+    padding-left: 10px;
+    color: black;
+  }
+  
+  .cursor {
+    cursor: pointer;
+    display: inline-block;
+  }
+ 
+
+  section.jumbotron {
+    background-position: center center;
+    background-size: cover;
+    margin-bottom: 0px;
+  }
+  
+  .bg1 {
+    background-image: url("image/jieshao.jpg");
+  }
+  
+  .bg2 {
+    background-image: url("image/writting.jpg");
+  }
+  
+  .bg3 {
+    background-image: url("image/adult-1845814_1920.jpg");
+  }
+  
+  .bg4 {
+    background-image: url("image/love.jpg");
+  }
+  
+  .bg5 {
+    background-image: url("image/men2.jpg");
+  }
+  
+  .circle1, .circle2, .circle3 {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: grey;
+    opacity: 0.5;
+    position: absolute;
+    transition-duration: 0.1s;
+  }
+  
+  .circle2 {
+    background-color: #7d98c1;
+    transition-duration: 0.2s;
+  }
+  
+  .circle3 {
+    background-color: white;
+    transition-duration: 0.3s;
+  }
+
+  ::-webkit-scrollbar{
+      display: none ;
+  }
